@@ -1,0 +1,90 @@
+body {
+  margin-top: -25px;
+  margin-left: : 3px;
+  background-color: rgba( 0 , 165 , 165);
+  line-height: 2;
+  display: inline-block;
+  animation: ANIMATION 2s ease;
+  overflow: auto;
+}
+
+.container {
+  background-color: rgba(255 , 255 , 255);
+  margin: auto;
+  border: 50px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.judul {
+  font-family:  fantasy , arial , sans serif;
+  font-size: 98%;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgba( 100 , 255 , 255);
+  color: rgba( 0 , 0 , 0);
+  text-align: center;
+  width: 100%;
+  animation: ANIMATION 3s ease;
+  overflow: hidden;
+}
+
+.Info {
+  background-color: rgba(190, 255 , 255);
+  padding-top: 5px;
+  font-family: fantasy , arial, sans serif;
+  border-top: 4px dashed black;
+  border-bottom: 4px dashed black;
+  animation: ANIMATION 4s ease;
+}
+
+p {
+  color: rgba( 0 , 0 , 0);
+  font-size: 110%;
+  font-family: fantasy , sans serif , serif;
+}
+
+
+.img img {
+  width: 98%;
+  margin-top: 10px;
+  border: 4px solid black;
+}
+
+figcaption {
+  font-size: 50%;
+}
+
+a {
+  display: block;
+  text-decoration-color: none;
+  color: white;
+  background-color: gray;
+  padding-top: 5px;
+  border: 3px solid black;
+}
+
+h2 {
+  background-color: rgba( 100 , 255 , 255);
+  color: rgba( 0 , 0 , 0);
+  text-align: center;
+  width: 100%;
+  animation: ANIMATION 3s ease;
+  overflow: hidden;
+  font-family: fantasy;
+}
+
+@keyframes ANIMATION {
+  from {
+    width: 50%;
+  }
+  
+  to {
+    width: 100%;
+  }
+}
+
